@@ -1,0 +1,11 @@
+Run some python programs on Pi like: Read your name and print Hello message with name 
+Read two numbers and print their sum, difference, product and division. Word and character 
+count of a given string Area of a given shape (rectangle, triangle and circle) reading shape and 
+appropriate values from standard input Print a name „n‟ times, where name and n are read 
+from standard input, using for and while loops. Handle Divided by Zero Exception. Print 
+current time for 10 times with an interval of 10 seconds. Read a file line by line and print the 
+word count of each line 
+
+==================================================================================================
+
+Get input from two switches and switch on corresponding LEDs
