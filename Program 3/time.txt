@@ -1,0 +1,2 @@
+on_time = 10
+off_time = 20
