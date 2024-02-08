@@ -1,0 +1,19 @@
+Heres the procedure:
+
+Step 1: Note down the path to playground.py. 
+Step 2: Open terminal and type "select-editor".
+Step 3: Select option "2".
+Step 4: In terminal type "crontab -e". It will open VIM Editor. 
+Step 5: Press "i" and press "esc", later ":wq" to save.
+Step 6: Now run "runthis.py" program.
+Step 7: Type "crontab -r" to remove the job.
+
+If you want to execute at specified time then follow till step 4,
+Step 8: You can see commands like "# m h dom mon dow command". 
+        Press "i" then click enter after the command and specify this time as required. 
+        For Example "30 12 * * * python3 path_to_playground.py"
+        m -> Minutes
+        h -> Hours
+        * -> None
+        in command specify the path of playground.py as mentioned above.
+Follow step 6 and 7.
