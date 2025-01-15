@@ -1,3 +1,4 @@
+# Get input from two switches and switch on corresponding LEDs
 import time
 import RPi.GPIO as gpio
 
@@ -31,8 +32,8 @@ def glow_led(event):
         gpio.output(led_two, True)  # LED is OFF
 
 
-gpio.add_event_detect(switch_one, gpio.RISING, callback = glow_led)  # Event Handler
-gpio.add_event_detect(switch_two, gpio.RISING, callback = glow_led)  # Event Handler
+gpio.add_event_detect(switch_one, gpio.RISING, callback=glow_led)  # Event Handler
+gpio.add_event_detect(switch_two, gpio.RISING, callback=glow_led)  # Event Handler
 
 try:
     while True:
