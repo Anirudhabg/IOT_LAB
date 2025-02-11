@@ -11,7 +11,7 @@ Step 7: Type "crontab -r" to remove the job.
 If you want to execute at specified time then follow till step 4,
 Step 8: You can see commands like "# m h dom mon dow command". 
         Press "i" then click enter after the command and specify this time as required. 
-        For Example "30 12 * * * python3 path_to_playground.py"
+        For Example "30 12 * * * sudo python3 path_to_playground.py"
         m -> Minutes
         h -> Hours
         * -> None
