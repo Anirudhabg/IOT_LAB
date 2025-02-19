@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flask Program</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
         <p>Status: {{Status}}</p>
         <p>Time: {{Time}}</p>
+        <a href="index.html">Index</a>
     </div>
 </body>
+
 </html>
